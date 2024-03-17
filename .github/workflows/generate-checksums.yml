@@ -28,10 +28,10 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Download run files
         run: |
-          wget https://developer.download.nvidia.com/compute/cuda/12.4.0/local_installers/cuda_12.4.0_550.54.14_linux.run
-          wget https://developer.download.nvidia.com/compute/cuda/12.4.0/local_installers/cuda_12.4.0_550.54.14_linux_sbsa.run
+          wget https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/cuda_12.1.1_530.30.02_linux.run
+          wget https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/cuda_12.1.1_530.30.02_linux_sbsa.run
 
       - name: Generate Checksums
         run: |
-          sha256sum cuda_12.4.0_550.54.14_linux.run
-          sha256sum cuda_12.4.0_550.54.14_linux_sbsa.run
+          sha256sum cuda_12.1.1_530.30.02_linux.run
+          sha256sum cuda_12.1.1_530.30.02_linux_sbsa.run
